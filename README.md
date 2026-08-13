@@ -1,6 +1,6 @@
 # MNA LeaderPath
 
-PROMPT PARA O LOVABLE — PORTAL DE FORMAÇÃO DE LÍDERES | MISSÃO NORTE DE ANGOLA
+ MISSÃO NORTE DE ANGOLA
 
 Crie uma aplicação web completa, moderna, responsiva, profissional e visualmente muito bonita para gerenciamento da formação, avaliação, notas, presença e progresso de pré-líderes da Missão Norte de Angola (MNA).
 
