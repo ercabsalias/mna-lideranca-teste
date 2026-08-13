@@ -1,14 +1,12 @@
 [build]
   command = "yarn build"
-  publish = "dist"
+  publish = ".output/public"
 
 [build.environment]
    NODE_VERSION = "22"
 
 [functions]
-  # This project is a Vite static build; remove functions directory.
-  # If you later add Netlify Functions, set this to the functions folder.
-  directory = ""
+  directory = ".output/server"
 
 [[redirects]]
   from = "/__l5e/assets-v1/0114d08a-73df-4c92-be91-9568539c33c3/mna-logo.png"
@@ -17,7 +15,7 @@
   force = true
 
 [[redirects]]
-  # SPA fallback: serve index.html for client-side routes
+  # SPA fallback: serve index.html for client-side routes (kept for safety)
   from = "/*"
   to = "/index.html"
   status = 200
