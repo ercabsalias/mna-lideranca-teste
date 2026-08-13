@@ -1,5 +1,6 @@
 [build]
-  command = "yarn build"
+  # Temporarily print Node/Yarn versions to debug failing Netlify build
+  command = "node -v && yarn -v && yarn build"
   publish = ".output/public"
 
 [build.environment]
