@@ -1,0 +1,15 @@
+[build]
+  command = "yarn build"
+  publish = ".output/public"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+[functions]
+  directory = ".output/server"
+
+[[redirects]]
+  from = "/__l5e/assets-v1/0114d08a-73df-4c92-be91-9568539c33c3/mna-logo.png"
+  to = "/assets/mna-logo.png"
+  status = 200
+  force = true
